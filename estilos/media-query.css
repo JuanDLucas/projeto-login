@@ -21,14 +21,22 @@ Grandes telas: acima de 1280px
 
     section#login > div#img {
         float: left;
-        width: 37%;
+        width: 35%;
         height: 100%;
     }
 
     section#login > div#form {
         float: right;
-        width: 63%;
+        width: 65%;
     }
+
+    div#form > h1 {
+        font-size: 2em;
+      }
+
+    div#form > p {
+        font-size: 1.1em;
+      }
 }
 
 @media screen and (min-width: 993px) { 
@@ -36,7 +44,7 @@ Grandes telas: acima de 1280px
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#login {
         width: 950px;
     }
@@ -51,4 +59,12 @@ Grandes telas: acima de 1280px
         float: left;
         width: 50%;
     }
+
+    div#form > h1 {
+        font-size: 2em;
+      }
+
+    div#form > p {
+        font-size: 1.2em;
+      }
 }
