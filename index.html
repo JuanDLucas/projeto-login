@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -19,10 +20,12 @@
                 <form action="login.php" method="post">
 
                     <p>
-                        <input type="email" name="" id="">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" required >
                     </p>
                     <p>
-                        <input type="password" name="" id="">
+                        <label for="senha"></label>
+                        <input type="password" name="senha" id="senha" required minlength="6" maxlength="12">
                     </p>
                     <p>
                     <input type="submit" value="Entrar">
